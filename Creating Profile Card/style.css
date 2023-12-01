@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width: 100%;
+    background-color:aqua;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0,0,0, 0.1);
+    position: relative;
+
+}
+.image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 10px;
+
+
+}
+.image .profile-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid whitesmoke;
+    object-fit: cover;
+}
+.profile-card .textdata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+.text-data .name{
+    font: 22px;
+    font-weight: 500;
+}
+.text-data .job{
+    font: 15px;
+    font-weight: 500;
+}
+.button{
+    background-color: red;
+    color: #f4f4f4;
+    border-radius:02vh;
+}
+.button1{
+    background-color: peru;
+    color: #f4f4f4;
+    border-radius: 50%;
+}
